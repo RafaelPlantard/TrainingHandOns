@@ -11,8 +11,18 @@
 		B62384F5225FB16A00412B63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62384F4225FB16A00412B63 /* ViewController.swift */; };
 		B62384FA225FB16A00412B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62384F9225FB16A00412B63 /* Assets.xcassets */; };
 		B62384FD225FB16A00412B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62384FB225FB16A00412B63 /* LaunchScreen.storyboard */; };
-		B6238508225FB16A00412B63 /* TrainingHandOnsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6238507225FB16A00412B63 /* TrainingHandOnsTests.swift */; };
 		B6238516225FB35500412B63 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6238515225FB35500412B63 /* main.swift */; };
+		B623851F225FB84C00412B63 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B623851B225FB84C00412B63 /* Nimble.framework */; };
+		B6238520225FB84C00412B63 /* Nimble_Snapshots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B623851C225FB84C00412B63 /* Nimble_Snapshots.framework */; };
+		B6238521225FB84C00412B63 /* KIF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B623851D225FB84C00412B63 /* KIF.framework */; };
+		B6238522225FB84C00412B63 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B623851E225FB84C00412B63 /* Quick.framework */; };
+		B6238530225FCA5200412B63 /* KIF.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B623851D225FB84C00412B63 /* KIF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6238531225FCA5200412B63 /* Nimble_Snapshots.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B623851C225FB84C00412B63 /* Nimble_Snapshots.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6238532225FCA5200412B63 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B623851B225FB84C00412B63 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6238533225FCA5200412B63 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B623851E225FB84C00412B63 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6238536225FCB1B00412B63 /* ViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6238535225FCB1B00412B63 /* ViewControllerSpec.swift */; };
+		B6238538225FCDE500412B63 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6238537225FCDE500412B63 /* FBSnapshotTestCase.framework */; };
+		B6238539225FCDEC00412B63 /* FBSnapshotTestCase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6238537225FCDE500412B63 /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +35,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B6238523225FB88000412B63 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6238539225FCDEC00412B63 /* FBSnapshotTestCase.framework in CopyFiles */,
+				B6238530225FCA5200412B63 /* KIF.framework in CopyFiles */,
+				B6238531225FCA5200412B63 /* Nimble_Snapshots.framework in CopyFiles */,
+				B6238532225FCA5200412B63 /* Nimble.framework in CopyFiles */,
+				B6238533225FCA5200412B63 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B62384EF225FB16A00412B63 /* TrainingHandOns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingHandOns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62384F2225FB16A00412B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,9 +60,14 @@
 		B62384FC225FB16A00412B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62384FE225FB16A00412B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6238503225FB16A00412B63 /* TrainingHandOnsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingHandOnsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6238507225FB16A00412B63 /* TrainingHandOnsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingHandOnsTests.swift; sourceTree = "<group>"; };
 		B6238509225FB16A00412B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6238515225FB35500412B63 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B623851B225FB84C00412B63 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		B623851C225FB84C00412B63 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble_Snapshots.framework; path = Carthage/Build/iOS/Nimble_Snapshots.framework; sourceTree = "<group>"; };
+		B623851D225FB84C00412B63 /* KIF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KIF.framework; path = Carthage/Build/iOS/KIF.framework; sourceTree = "<group>"; };
+		B623851E225FB84C00412B63 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		B6238535225FCB1B00412B63 /* ViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSpec.swift; sourceTree = "<group>"; };
+		B6238537225FCDE500412B63 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +82,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6238538225FCDE500412B63 /* FBSnapshotTestCase.framework in Frameworks */,
+				B6238521225FB84C00412B63 /* KIF.framework in Frameworks */,
+				B623851F225FB84C00412B63 /* Nimble.framework in Frameworks */,
+				B6238520225FB84C00412B63 /* Nimble_Snapshots.framework in Frameworks */,
+				B6238522225FB84C00412B63 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +99,7 @@
 				B62384F1225FB16A00412B63 /* TrainingHandOns */,
 				B6238506225FB16A00412B63 /* TrainingHandOnsTests */,
 				B62384F0225FB16A00412B63 /* Products */,
+				B623851A225FB84C00412B63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +126,8 @@
 		B6238506225FB16A00412B63 /* TrainingHandOnsTests */ = {
 			isa = PBXGroup;
 			children = (
-				B6238507225FB16A00412B63 /* TrainingHandOnsTests.swift */,
 				B6238509225FB16A00412B63 /* Info.plist */,
+				B6238535225FCB1B00412B63 /* ViewControllerSpec.swift */,
 			);
 			path = TrainingHandOnsTests;
 			sourceTree = "<group>";
@@ -120,6 +158,18 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		B623851A225FB84C00412B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6238537225FCDE500412B63 /* FBSnapshotTestCase.framework */,
+				B623851D225FB84C00412B63 /* KIF.framework */,
+				B623851C225FB84C00412B63 /* Nimble_Snapshots.framework */,
+				B623851B225FB84C00412B63 /* Nimble.framework */,
+				B623851E225FB84C00412B63 /* Quick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,7 +196,7 @@
 			buildPhases = (
 				B62384FF225FB16A00412B63 /* Sources */,
 				B6238500225FB16A00412B63 /* Frameworks */,
-				B6238501225FB16A00412B63 /* Resources */,
+				B6238523225FB88000412B63 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -173,6 +223,7 @@
 					};
 					B6238502225FB16A00412B63 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = B62384EE225FB16A00412B63;
 					};
 				};
@@ -206,13 +257,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6238501225FB16A00412B63 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -230,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6238508225FB16A00412B63 /* TrainingHandOnsTests.swift in Sources */,
+				B6238536225FCB1B00412B63 /* ViewControllerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +455,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TrainingHandOnsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -420,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.concrete.TrainingHandOnsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainingHandOns.app/TrainingHandOns";
@@ -431,7 +481,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TrainingHandOnsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -529,7 +584,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TrainingHandOnsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,6 +598,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.concrete.TrainingHandOnsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainingHandOns.app/TrainingHandOns";
